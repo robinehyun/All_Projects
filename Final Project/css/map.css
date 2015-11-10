@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+
+}
+
+div.logo {
+  float: left;
+  font-size: 28px;
+  margin: 10px -60px 10px 10px;
+  padding: 5px;
+  border: 5px solid #FFD700;
+  box-sizing: border-box;
+  background-color: black;
+  color: #FFD700;
+}
+
+nav {
+  background-color: #000000;
+  width: 100%;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  /*margin-left: 8%;*/
+  margin-right: 8%;
+  position: fixed;
+  z-index: 1;
+}
+
+ul.top-bar {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+li.branch {
+  display: inline;
+  font-size: 20px;
+  margin: 10px 30px 0px 0px;
+  cursor: pointer;
+}
+
+.top-bar li > a:hover {
+  color: #FFFFFF;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #FFD700;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+}
+
+.login-menu {
+  float: right;
+  font-size: 16px;
+  margin-top: -45px;
+  margin-right: 8%;
+  border: 2px solid #FFD700;
+  padding: 3px 6px 3px 6px;
+  border-radius: 5px;
+}
+
+.signup-menu {
+  float: right;
+  font-size: 16px;
+  margin-top: -45px;
+  margin-right: 2.5%;
+  border: 2px solid #FFD700;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.login-menu:hover {
+  color: #000000;
+  background: #FFD700;
+  text-decoration: none;
+}
+
+.signup-menu:hover {
+  color: #000000;
+  background: #FFD700;
+  text-decoration: none;
+}
+
+section {
+  padding-top: 72px;
+  padding-left: 10%;
+}
+
+#map {
+  width: 80vw;
+  height: 600px;
+  background-color: #CCC;
+}

@@ -1,0 +1,65 @@
+<!DOCtype html>
+  <html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>BJJBug</title>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+  </head>
+
+  <body>
+    <header>
+    		<nav>
+    			<div class="logo"><a href="index.html" style="text-decoration: none;">BJJBug</div>
+    			<ul class="top-bar">
+    				<li class="branch"><a href="www.google.com">About Us</a></li>
+    				<li class="branch"><a href="#">Forum</a></li>
+    				<li class="branch"><a href="mapfinder.html">School Finder</a></li>
+    				<li class="branch"><a href="#">Technique of the Week</a></li>
+    				<li class="branch"><a href="tournaments.html">Tournaments</a></li>
+    			</ul>
+    				<div class="login-menu"><a href="login.html" class="login">Log In</a></div>-->
+    				<div class="signup-menu"><a href="signup.html" class="signup">Sign Up</a></div>
+    		</nav>
+    </header>
+
+    <section>
+      <div id="container">
+        <form name="login">
+          <div class="previewfile">
+            <img id="output" src="https://secure.gravatar.com/avatar/1bba2b1a5ada2ffb4e0534dcd6fa94c6?s=250&d=mm&r=pg" class="output" alt="Image preview...">
+            <input id="choose_file" class="choosefile" type="file" accept="image/*" onchange="previewFile(event)"><br>
+          </div>
+        </form>
+        <form name="myForm" method="post">
+          <div>
+            <input id="email" type="email" name="emailaddress" value=""  placeholder="Email Address" class="input_email">
+          </div>
+          <div>
+            <input id="username" type="text" name="userid" value=""  placeholder="Username" class="input_username">
+          </div>
+          <div>
+            <input id="password" type="password" name="password" value="" placeholder="Password" class="input_password">
+          </div>
+          <div>
+            <input id="first_name" type="text" name="firstname" value=""  placeholder="First Name" class="input_firstname">
+          </div>
+          <div>
+            <input id="last_name" type="text" name="lastname" value=""  placeholder="Last Name" class="input_lastname">
+          </div>
+
+          <div id="submit">
+            <input id="button" type="submit" value="Create User" class="red_button" />
+          </div>
+        </form>
+
+        <div class="belowbutton">
+				  <a href="login.html">Already have an account?</a>
+			  </div>
+      </div>
+    </section>
+
+    <!-- <script type="text/javascript" src="../js/xhr.js"> </script> -->
+    <script src="js/signup.js"></script>
+  </body>
+  </html>
