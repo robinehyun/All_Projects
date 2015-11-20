@@ -1,8 +1,7 @@
 body {
   background-color: white;
-  font-family: 'Lato', sans-serif;
-  margin: 0px;
-
+  font-family: 'Lato', sans-serif !important;
+  width: 100%;
 }
 
 div.logo {
@@ -16,6 +15,11 @@ div.logo {
   color: #FFD700;
 }
 
+div.logo a, a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 nav {
   background-color: #000000;
   width: 100%;
@@ -27,7 +31,7 @@ nav {
   /*margin-left: 8%;*/
   margin-right: 8%;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
 }
 
 ul.top-bar {
@@ -55,45 +59,56 @@ a:-webkit-any-link {
   color: white;
 }
 
-.login-menu {
-  float: right;
-  font-size: 16px;
-  margin-top: -45px;
-  margin-right: 8%;
-  border: 2px solid #FFD700;
-  padding: 3px 6px 3px 6px;
-  border-radius: 5px;
+footer.site-footer {
+  border: 1px solid #000000;
+  width:100%;
+  background-color: black;
+  margin-top: 30px;
 }
 
-.signup-menu {
-  float: right;
-  font-size: 16px;
-  margin-top: -45px;
-  margin-right: 2.5%;
-  border: 2px solid #FFD700;
-  padding: 3px;
-  border-radius: 5px;
+div.bottomMenu {
+  color: white;
+  padding-top: 20px;
+  /*margin-left: 7%;*/
+  text-align: center;
+  font-size: 1.2em;
 }
 
-.login-menu:hover {
-  color: #000000;
-  background: #FFD700;
+ul.bottomList {
+  list-style-type: none;
+  display: inline;
+}
+
+li.menu1, li.menu2, li.menu3 {
+  display: inline;
+  padding: 0 20px 0 20px;
   text-decoration: none;
+  color: white;
 }
 
-.signup-menu:hover {
-  color: #000000;
-  background: #FFD700;
+small.copyright {
+  text-align: center;
+  color: white;
+}
+
+small.copyright p {
+  margin: 30px 0 30px 0;
+}
+
+li.menu3 a, a:hover {
   text-decoration: none;
+  color: white;
 }
 
 section {
-  padding-top: 72px;
-  padding-left: 10%;
+  width: 80%;
+  padding-left: 21%;
 }
 
-#map {
-  width: 80vw;
-  height: 600px;
-  background-color: #CCC;
+div.video{
+  padding-top: 25%;
+}
+
+#HCB_comment_box {
+  width: 80%;
 }

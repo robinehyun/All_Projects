@@ -21,9 +21,9 @@ xhrHandler.prototype.request = function(verb, path, options){
       var access_token = 'Edc122DhpGN1bynG!JtDQw2NKuWudTKZ%SVQD!wM6eA#xf5^iLI5x)(Il86Hkmqs';
 
       // opens the request and sets headers
-      xhr.open(verb, "https://public-api.wordpress.com/rest/v1/sites/" + id + "/"+path, true);
-      xhr.setRequestHeader( 'Authorization', 'BEARER ' + access_token);
-      xhr.withCredentials = true;
+      xhr.open(verb, "https://public-api.wordpress.com/rest/v1/sites/" + id + "/" + path, true);
+      //xhr.setRequestHeader( 'Authorization', 'BEARER ' + access_token);
+      //xhr.withCredentials = true;
 
       // handle changes in the response.
       xhr.onreadystatechange = function() {
