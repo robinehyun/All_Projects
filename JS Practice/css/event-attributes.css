@@ -1,0 +1,49 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: black;
+  width: 50%;
+  padding-left: 25%;
+}
+
+div.newAccount {
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 20px;
+}
+
+div#feedback {
+  margin: 10px;
+  color: red;
+}
+
+form {
+  color: white;
+}
+
+.formText {
+  margin-bottom: 20px;
+}
+
+input#username, input#password {
+  display: block;
+  position: relative;
+  background-color: #DCDCDD;
+  padding: 7px;
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px 0 10px 0 ;
+  border: 0 none;
+}
+
+input[type=submit] {
+  font-size: 1em;
+  padding:10px 20px;
+  background:#BC4B51;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: white;
+  margin: 10px 0 0 110px;
+}
